@@ -1,15 +1,24 @@
-import { useState } from 'react'
-import './App.css'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+
+import { LayoutAdmin } from './layout/LayoutAdmin'
+//pages
+import { Home } from './pages/Home'
 
 function App() {
 
 
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-    </>
+
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<LayoutAdmin />} >
+          <Route path="/home" element={
+            <Home />
+          } />
+          
+        </Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
