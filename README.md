@@ -1,8 +1,18 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# CRUD PRODUCTOS
+### TECNOLOGÍAS: REACT 18.3.1, VITE, TAILWIND...INSTALAR DEPENDENCIAS CON NPM INSTALL
+### Listar productos
+![Texto alternativo](src/assets/img/imagenUno.png)
+### Expandir fila para mostrar más información
+![Texto alternativo](src/assets/img/imageDos.png)
+### Responsive design
+![Texto alternativo](src/assets/img/imagenTres.png)
+### Responsive design expndir fila para mostrar información
+![Texto alternativo](src/assets/img/imagenCuatro.png)
+### Busqueda por nombre
+![Texto alternativo](src/assets/img/imageSeis.png)
+### Guardar
+![Texto alternativo](src/assets/img/imagenSiete.png)
+### Eliminar
+![Texto alternativo](src/assets/img/imagenOcho.png)
+### Actualizar un producto por id
+![Texto alternativo](src/assets/img/imagenNueve.png)
