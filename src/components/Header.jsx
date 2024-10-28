@@ -5,7 +5,7 @@ export const Header = () => {
   return (
     <nav className='shadow-md flex justify-between items-center py-4 mb-4'>
     <div className='ml-4 flex gap-2 items-center'>
-      <Link to="/home" className="text-md font-bold text-primary  tracking-[1px] 
+      <Link to="/" className="text-md font-bold text-primary  tracking-[1px] 
       sm:tracking-[3px] sm:text-2xl"
       >Pharmanet</Link>
     </div>
