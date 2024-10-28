@@ -1,4 +1,4 @@
-import React, { useState, useContext, useEffect } from 'react';
+import React, {  useContext } from 'react';
 import { ProductsContext } from '../context/ProductContext'
 import { FaTrash, FaEdit, FaPlus } from "react-icons/fa"
 import { IoIosRemoveCircleOutline } from "react-icons/io";
@@ -26,7 +26,7 @@ export const Home = () => {
     return <p>Cargando...</p>;
   }
   const handleDelete = (id) => {
-    if (window.confirm('¿Estás seguro de que deseas eliminar la presentación?')) {
+    if (window.confirm('¿Estás seguro de que deseas eliminar la producto?')) {
       removeProduct(id); // Llamar a la función de eliminar del contexto
     }
   };
